@@ -1,0 +1,31 @@
+{
+  "name": "tp_node_2",
+  "version": "1.0.0",
+  "description": "Tp de Node 2",
+  "homepage": "https://github.com/M4RT0-08/TP_NODE_2#readme",
+  "bugs": {
+    "url": "https://github.com/M4RT0-08/TP_NODE_2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4RT0-08/TP_NODE_2.git"
+  },
+  "license": "ISC",
+  "author": "Martin Saban & Tomas Mandelman",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "ej01": "node ./src/ej01.js",
+    "ej02": "node ./src/ej02.js",
+    "ej03": "node ./src/ej03.js",
+    "ej04": "node ./src/ej04.js",
+    "ej05": "node ./src/ej05.js",
+    "ej06": "node ./src/ej06.js",
+    "ej07": "node ./src/ej07.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.20"
+  }
+}
